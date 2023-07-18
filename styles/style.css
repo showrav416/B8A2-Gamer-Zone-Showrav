@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+}
+
+/* Common Styles Starts */
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.common-gamer-title {
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.common-gamer-title span {
+  color: #ff42a5;
+}
+
+.btn-primary {
+  border-radius: 48px;
+  border: none;
+  background-color: #ff42a5;
+  color: #fff;
+  padding: 21px 40px;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+/* Header NavBar Part styles */
+
+.gamer-navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 681px;
+}
+
+.gamer-navbar {
+  padding: 37px 0;
+}
+
+.navbar-title {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.navbar-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 32px;
+}
+
+.navbar-items a {
+  color: #3c354f;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.follow-us {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.1);
+  padding: 16px 16px 16px 24px;
+}
+
+.follow-us img {
+  height: auto;
+  width: 28px;
+}
+.follow-us a {
+  padding-right: 5px;
+}
+
+/* Header Banner Part styles */
+.banner {
+  background-image: url("../images/Group-14.png");
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 370px;
+}
+
+/* .banner-content {
+  padding: 148px 0;
+  background-image: url("../images/Group-14.png");
+  background-repeat: no-repeat;
+} */
+
+/* .banner-container {
+  position: relative;
+}
+
+.banner-content {
+  position: absolute;
+  top: 0;
+} */
+
+.banner-content h4 {
+  color: #0b0223;
+  font-size: 48px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.banner-content h1 {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 95px;
+  font-weight: 800;
+  text-transform: uppercase;
+  padding-bottom: 24px;
+}
+
+.banner-content ul {
+  padding-bottom: 24px;
+}
+
+.banner-icons-description li {
+  display: flex;
+  text-align: center;
+  gap: 10px;
+  padding-bottom: 17px;
+}
+
+.btn-rogue {
+  background-color: #4ec5f7;
+}
