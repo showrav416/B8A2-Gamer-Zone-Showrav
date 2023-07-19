@@ -37,6 +37,23 @@ a {
   -webkit-text-fill-color: transparent;
 }
 
+.common-gamer-title-h2 span {
+  font-size: 48px;
+  font-weight: 700;
+  background: #0b0223;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-bottom: 24px;
+}
+
+.common-gamer-title-black {
+  font-size: 48px;
+  font-weight: 700;
+  color: #0b0223;
+  padding-bottom: 24px;
+}
+
 .common-description {
   color: #534c64;
   font-size: 18px;
@@ -261,10 +278,57 @@ a {
   opacity: 1;
 }
 
-/* .games-card img {
-  padding-bottom: 24px;
-} */
-
 .games-card p {
   line-height: 28px;
+}
+
+/* play instantly part styles */
+.play-instantly {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: right;
+  gap: 125px;
+  padding-top: 120px;
+}
+
+.play-instantly-content {
+  padding-left: 300px;
+}
+
+.play-instantly1 {
+  position: relative;
+}
+.play-instantly2 {
+  position: absolute;
+  bottom: -15%;
+  left: -25%;
+  /* transform: translate(-50%, -50%); */
+  /* bottom: -10%;
+  left: -25%; */
+}
+
+.play-instantly-pt2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row-reverse;
+  text-align-last: left;
+  padding-top: 200px;
+  gap: 200px;
+}
+
+.play-instantly-content-pt2 {
+  padding-right: 150px;
+}
+.play-instantly3 {
+  position: relative;
+}
+.play-instantly4 {
+  position: absolute;
+  right: -25%;
+  bottom: -17%;
+  /* transform: translate(-50%, -50%); */
+  /* bottom: -10%;
+  left: -25%; */
 }
