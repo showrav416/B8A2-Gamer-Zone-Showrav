@@ -552,6 +552,9 @@ a {
     font-size: 80%;
   }
 
+  .careers-content {
+    padding: 0 20px;
+  }
   .career-images img {
     width: 100vw;
   }
