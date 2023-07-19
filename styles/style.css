@@ -14,13 +14,29 @@ a {
   text-decoration: none;
 }
 
-.common-gamer-title {
+.common-gamer-title-h3 {
   font-size: 45px;
   font-weight: 700;
 }
 
 .common-gamer-title span {
   color: #ff42a5;
+}
+
+.common-gamer-title-h2 {
+  font-size: 48px;
+  font-weight: 700;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.common-description {
+  color: #534c64;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
 }
 
 .btn-primary {
@@ -35,7 +51,6 @@ a {
 }
 
 /* Header NavBar Part styles */
-
 .gamer-navbar {
   display: flex;
   align-items: center;
@@ -79,6 +94,7 @@ a {
   height: auto;
   width: 28px;
 }
+
 .follow-us a {
   padding-right: 5px;
 }
@@ -92,21 +108,6 @@ a {
   justify-content: space-evenly;
   gap: 370px;
 }
-
-/* .banner-content {
-  padding: 148px 0;
-  background-image: url("../images/Group-14.png");
-  background-repeat: no-repeat;
-} */
-
-/* .banner-container {
-  position: relative;
-}
-
-.banner-content {
-  position: absolute;
-  top: 0;
-} */
 
 .banner-content h4 {
   color: #0b0223;
@@ -139,4 +140,63 @@ a {
 
 .btn-rogue {
   background-color: #4ec5f7;
+}
+
+/* We are gamer part styles */
+.we-are-gamer {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 66, 165, 0.03) 0%,
+    rgba(255, 66, 165, 0.03) 100%
+  );
+  text-align: right;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 95px 0;
+  gap: 40px;
+}
+
+.we-are-gamer-content .common-gamer-title-h2 {
+  padding-bottom: 24px;
+}
+
+.we-are-gamer-content .common-description {
+  padding-bottom: 32px;
+}
+
+.we-are-gamer-content .btn-primary {
+  margin-bottom: 24px;
+}
+
+.our-purpose {
+  color: #534c64;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 45px; /* 187.5% */
+}
+.unleash-gamer {
+  color: #534c64;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 45px;
+}
+
+/* games-funny-videos part styles */
+.games-funny-videos {
+  padding-top: 120px;
+}
+.games-funny-videos-content {
+  text-align: center;
+}
+
+.games-funny-videos-content .common-gamer-title-h2 {
+  padding-bottom: 16px;
+}
+
+.online-games {
+  background: #0b0223;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
