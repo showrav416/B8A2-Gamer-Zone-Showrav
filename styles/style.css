@@ -332,3 +332,52 @@ a {
   /* bottom: -10%;
   left: -25%; */
 }
+
+/* Section careers styles */
+.careers {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 245px;
+  padding-left: 210px;
+  gap: 35px;
+  background: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
+}
+
+.career-title {
+  color: #fff;
+  font-family: Work Sans;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px;
+  padding-bottom: 25px;
+}
+
+.careers-content .common-description {
+  color: #fff;
+  padding-bottom: 32px;
+}
+.career-listitem {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-bottom: 40px;
+}
+
+.career-listitem li {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 40px;
+}
+
+.careers-content .btn-primary {
+  background-color: #fff;
+  color: #ff42a5;
+}
+
+.job-candidates {
+  text-align: right;
+}
+
+/* Type of games styles */
